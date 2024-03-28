@@ -1,4 +1,4 @@
-// assign: evaluation
+// evaluation
 {
   var a = 5;
   var b, c;
@@ -7,7 +7,7 @@
   b = (c = (b / 2));
 }
 
-// Number: age
+// age
 var age = prompt("Скільки вам років?");
 if (age !== null) {
     var currentYear = new Date().getFullYear();
@@ -18,7 +18,7 @@ else {
     alert("Введення скасовано.");
 }
 
-// Number: temperature
+// temperature
 var celsius = prompt("Введіть температуру в градусах Цельсія:");
 if (celsius !== null) {
   var fahrenheit = (parseFloat(celsius) * 9) / 5 + 32;
@@ -32,7 +32,7 @@ if (celsius !== null) {
   alert("Введення скасовано.");
 }
 
-// Number: divide
+//  divide
 var dividend = parseFloat(prompt("Введіть ділене число:"));
 var divisor = parseFloat(prompt("Введіть дільник:"));
 if (!isNaN(dividend) && !isNaN(divisor) && divisor !== 0) {
@@ -44,7 +44,7 @@ if (!isNaN(dividend) && !isNaN(divisor) && divisor !== 0) {
     alert("Будь ласка, введіть числа.");
 }
 
-// Number: currency
+// currency
 const rate = 27.50;
 var amount = parseFloat(prompt("Введіть суму в одній валюті:"));
 if (!isNaN(amount)) {
@@ -55,7 +55,7 @@ if (!isNaN(amount)) {
     alert("Будь ласка, введіть правильну суму.");
 }
 
-// Number: RGB
+// RGB
 var red = parseInt(
   prompt("Введіть значення червоного кольору (від 0 до 255):")
 );
@@ -80,7 +80,7 @@ if (
   alert("Будь ласка, введіть числа від 0 до 255.");
 }
 
-// Number: flats
+// flats
 var numFloors = parseInt(prompt("Введіть кількість поверхів у будинку:"));
 var apartmentsPerFloor = parseInt(
   prompt("Введіть кількість квартир на поверсі:")
